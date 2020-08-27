@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/file.css">
+</head>
+
+<body onload="reset()">
+    <div class="container">
+        <div class="part1">
+            <p>guess the color!</p>
+            <p id="title">RGB(...,...,...)</p>
+        </div>
+        <div class="part2">
+            <div class="strip">
+                <button id="strip_item1" onclick="reset()">New Colors</button>
+            </div>
+            <div class="strip">
+                <p id="strip_item2"></p>
+            </div>
+            <div class="strip">
+                <button id="strip_item3" class=" " onclick="classSwap(this)">Easy</button>
+                <button id="strip_item4" class="active" onclick="classSwap(this)">Medium</button>
+                <button id="strip_item5" class=" " onclick="classSwap(this)">Hard</button>
+            </div>
+        </div>
+        <div class="part3">
+            <div class="grid">
+                <div class="box" id="box-1" onclick="check(this)"></div>
+                <div class="box" id="box-2" onclick="check(this)"></div>
+                <div class="box" id="box-3" onclick="check(this)"></div>
+                <div class="box" id="box-4" onclick="check(this)"></div>
+                <div class="box" id="box-5" onclick="check(this)"></div>
+                <div class="box" id="box-6" onclick="check(this)"></div>
+                <div class="box" id="box-7" onclick="check(this)"></div>
+                <div class="box" id="box-8" onclick="check(this)"></div>
+                <div class="box" id="box-9" onclick="check(this)"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/file.js"></script>
+</body>
+
+</html>
