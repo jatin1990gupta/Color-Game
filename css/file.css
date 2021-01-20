@@ -8,7 +8,6 @@
 }
 
 /* Title Section */
-<<<<<<< HEAD
 .container .part1 {
   display: flex;
   flex-direction: column;
@@ -18,17 +17,6 @@
   padding: 12px;
   background-color: #8a9b6f;
   color: white;
-=======
-.container .part1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 99%;
-    padding: 12px;
-    background-color: #8a9b6f;
-    color: white;
->>>>>>> a97051af772274794aa9964d49bcfc9f80d3ea65
 }
 .part1 p:nth-child(1) {
   font-size: 20px;
@@ -79,7 +67,7 @@ button.active {
 /* Main Section */
 .container .part3 {
   background-color: #34312d;
-  height: 90vh;
+  height: 100vh;
 }
 
 .part3 .grid {
