@@ -106,7 +106,6 @@ button.active {
 }
 
 /* Responsive Section */
-<<<<<<< HEAD
 @media (max-width: 650px) {
   .container .part1 {
     position: fixed;
@@ -165,63 +164,4 @@ button.active {
     grid-template-rows: repeat(4, 150px);
     grid-template-columns: repeat(2, 150px);
   }
-=======
-@media (max-width:650px) {
-    .container .part1{
-        position: fixed;
-        padding: 1rem;
-    }
-    .part1 p:nth-child(1) {
-        font-size: 0.8rem;
-        font-weight: 500;
-    }
-    .part1 p:nth-child(2) {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    .container .part2 {
-        position: fixed;
-        top: 11vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0.3rem;
-    }
-    
-    .part2 .strip {
-        width: 100vw;
-        padding: 0.3rem;
-    }
-    
-    .strip>button, .strip>p {
-        border: none;
-        padding: 3px 5px;
-        font-size: 0.8rem;
-        font-weight: 700;
-        color: #8a9b6f;
-        background-color: inherit;
-        outline: none;
-        cursor: pointer;
-    }
-    
-    button.active{
-        background-color: rgb(138, 155, 111);
-        color: #F5FBEF;
-    }
-    
-    .strip>button:hover{
-        background-color: rgb(138, 155, 111);
-        color: #F5FBEF;
-    }
-
-    .part3 {
-        padding-top: 25vh;
-    }
-
-    .part3 .grid {
-        grid-template-rows: repeat(4, 150px);
-        grid-template-columns: repeat(2, 150px);
-    }
->>>>>>> a97051af772274794aa9964d49bcfc9f80d3ea65
 }
